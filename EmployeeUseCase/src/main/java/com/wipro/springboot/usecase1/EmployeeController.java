@@ -1,12 +1,10 @@
-package com.example.demo.controller;
+package com.wipro.springboot.usecase1;
 
 
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import com.example.demo.model.Employee;
-import com.example.demo.service.EmployeeService;
 
 @RestController
 @RequestMapping("/employees") 

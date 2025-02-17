@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.wipro.springboot.usecase1;
 
 
 
@@ -6,8 +6,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.springframework.stereotype.Service;
-
-import com.example.demo.model.Employee;
 
 @Service
 public class EmployeeService {
@@ -62,7 +60,7 @@ public class EmployeeService {
 	            case "architect":
 	                return "System Architect";
 	            default:
-	                return "Unknown Role";  // Default designation
+	                throw new IllegalArgumentException("No Role: "+role);  // Default designation
 	        }
 	    }
     

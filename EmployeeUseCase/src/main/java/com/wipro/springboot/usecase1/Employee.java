@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.wipro.springboot.usecase1;
 
 public class Employee {
 	private int id;
